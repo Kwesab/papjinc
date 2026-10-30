@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f0f"/>
+      <stop offset="100%" style="stop-color:#1a1208"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d97706"/>
+      <stop offset="100%" style="stop-color:#b45309"/>
+    </linearGradient>
+  </defs>
+  <!-- background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- subtle grid lines -->
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="#ffffff08" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="#ffffff08" stroke-width="1"/>
+  <!-- accent bar -->
+  <rect x="80" y="180" width="6" height="120" fill="url(#accent)" rx="3"/>
+  <!-- name -->
+  <text x="110" y="255" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="700" fill="#f5f5f5" letter-spacing="-2">Albert Prah</text>
+  <!-- title -->
+  <text x="112" y="305" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="400" fill="#d97706">Software Engineer</text>
+  <!-- description -->
+  <text x="112" y="355" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#888888">Building practical web, backend &amp; AI-assisted systems.</text>
+  <!-- location -->
+  <text x="112" y="395" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#555555" letter-spacing="2">SEKONDI–ESSIKADO · GHANA</text>
+  <!-- bottom domain -->
+  <text x="112" y="540" font-family="ui-monospace, monospace" font-size="20" fill="#444444" letter-spacing="1">albertprah.dev</text>
+  <!-- decorative circle -->
+  <circle cx="980" cy="315" r="180" fill="none" stroke="#d9770612" stroke-width="60"/>
+  <circle cx="980" cy="315" r="100" fill="none" stroke="#d9770618" stroke-width="30"/>
+  <circle cx="980" cy="315" r="44" fill="#d97706" opacity="0.15"/>
+</svg>
